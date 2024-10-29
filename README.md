@@ -44,3 +44,13 @@ my-deployment1: It is the name of the Deployment being created. In this case, th
 --image=nginx: It specifies the container image used for the Pods managed by this Deployment. The nginx image is a popular web server and reverse proxy server.
 
 It creates a Deployment named my-deployment1 that uses the nginx image. Deployments manage the rollout and scaling of applications.
+
+
+<h1> Task 2: Manage Kubernetes Pods and Services
+</h1>
+
+Get the list of pods
+
+> Command
+>
+>     kubectl get pods
