@@ -54,3 +54,13 @@ Get the list of pods
 > Command
 >
 >     kubectl get pods
+
+
+This command displays all pods, including those created by the my-deployment1 Deployment.
+
+2. Show labels
+Replace <pod-name> with the actual pod Name:
+>
+>
+>      kubectl get pod <pod-name> --show-labels
+![image](https://github.com/user-attachments/assets/9be1c261-59b0-4bef-860c-f44d30836ed3)
